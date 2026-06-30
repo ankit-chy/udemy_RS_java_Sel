@@ -1,5 +1,7 @@
 package com.Assignments;
 
+import java.util.ArrayList;
+
 public class arrayExploration {
 
     public static void main(String[] args) {
@@ -32,8 +34,15 @@ System.out.println("Last element: " + numbers[numbers.length - 1]);
 
 for (int i = numbers.length - 1; i >= 0; i--) {
     System.out.println("Element in reverse order: " + numbers[i]);
-}
 
 }
 
+ArrayList<String> a  = new ArrayList<String>();
+
+a.add("Ankit");
+a.add("Choudhary");
+System.out.println(a.get(0));
+System.out.println(a.get(1));
+
+}
 }
